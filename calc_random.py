@@ -102,12 +102,6 @@ class Unary:
     operand: "Node"
 
 
-@dataclass
-class Binary:
-    operator: str
-    left: "Node"
-    right: "Node"
-
 
 @dataclass
 class Call:
